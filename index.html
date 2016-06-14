@@ -1,0 +1,151 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>msolo.ca</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="./js/smooth-scroll.js"></script>
+  </head>
+  <body>
+
+    <section>
+      <div class="row">
+       <div class="large-8 large-centered medium-10 medium-centered columns">
+         <div class="title">
+           <h1>matthew solomonson</h1>
+           <h3>biologist/developer</h3>
+         </div>
+         <div class="navigation">
+           <div class="navigation-item"><a data-scroll buffer href="#about">About me</a></div>
+           <div class="navigation-item"><a data-scroll buffer href="#tools">Tools</a></div>
+           <div class="navigation-item"><a data-scroll buffer href="#demos">Demos</a></div>
+           <div class="navigation-item"><a data-scroll buffer href="#publications">Publications</a></div>
+         </div>
+
+            <div class="section statement">
+              <div class="anchor" id="about"></div>
+              <h2 class="heading"></h2>
+               <img profile src="./img/profile2.jpg">
+               <p class="lead"><span>I build programs for exploring large biological datasets on the web.</span></p>
+
+               <p> Biological data is exploding in size and complexity. To make sense of it, we need to engineer a new generation of interactive visualization tools that are accessible to researchers, clinicians, hobbyists, and people without scientific training.</p>
+
+               <p>I enjoy learning, designing, creating, and being a part of significant collaborative initiatives. I am excited to work with other researchers to create translatable interfaces that accurately communicate complex information while getting people excited about biology.</p>
+             </div>
+
+             <div class="section">
+               <div class="anchor" id="tools"></div>
+               <h2 class="heading">Technologies I use</h2>
+               <p>Below are some of the technologies I am familiar with. I am interested in next-generation web paradigms that simplify application development and maintainability. I use JavaScript, the React view library, and the Redux pattern to maintain application state. These technologies are powerful for displaying data when combined with Ramda.js, D3, CSS, and SVG. Where possible, I like to compose simple/reusable/modular web components from scratch through behavior-driven development, writing unit tests as I go. I can work with NoSQL databases and build simple restful APIs. I can deploy dockerized web applications on cloud computing platforms like Amazon Web Services.</p>
+               <ul>
+                 <li>Language/environment: <a href="https://en.wikipedia.org/wiki/Functional_programming">Functional</a> <a href="https://github.com/lukehoban/es6features">ES6</a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>, <a href="https://nodejs.org/en/">node.js</a></li>
+                 <li>Data processing, visualization: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML/<a href="https://facebook.github.io/react/docs/jsx-in-depth.html">JSX</a></a>, <a href="http://postcss.org/">PostCSS</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG</a>, <a href="http://ramdajs.com/0.21.0/index.html">Ramda</a>, <a href="https://d3js.org/">D3</a></li>
+                 <li>Module bundling/compilation: <a href="https://webpack.github.io/">Webpack</a>, <a href="https://babeljs.io/">Babel</a></li>
+                 <li>DOM manipulation/application state: <a href="https://facebook.github.io/react/">React</a>, <a href="http://redux.js.org/">Redux</a></li>
+                 <li>Unit testing: <a href="https://mochajs.org/">Mocha</a></li>
+                 <li>Databases: <a href="https://www.mongodb.com/">MongoDB</a>, <a href="https://www.rethinkdb.com/">RethinkDB</a></li>
+                 <li>Infrastructure: <a href="https://en.wikipedia.org/wiki/Unix">Unix</a>/<a href="http://www.ubuntu.com/">Linux</a>, <a href="https://git-scm.com/">git</a>, <a href="https://www.docker.com/">Docker</a>, <a href="https://aws.amazon.com/">Amazon Web Services</a></li>
+                 <li>Data analysis: <a href="https://www.python.org/">Python</a>, <a href="https://ipython.org/">IPython</a>, <a href="http://matplotlib.org/">matplotlib</a>, <a href="http://pandas.pydata.org/">pandas</a></li>
+               </ul>
+               <p>The exome browser below demonstrates most of these tools in action.</p>
+             </div>
+
+             <div class="section">
+              <div class="anchor" id="demos"></div>
+               <h2 class="heading">Demos</h2>
+               <div class="demos">
+                 <div class="demo group">
+                   <h4>exome browser</h4>
+                   <a href="http://52.70.90.147"><img src="./img/exalt.png"></a>
+                   <p class="lead"><a href="http://52.70.90.147">Demo</a></p>
+                   <p class="lead"><a href="https://github.com/mattsolo1/exalt">Source</a></p>
+                   <p>This application can be used to explore the dataset released by the Exome Aggregation Consortium (ExAC), which describes protein-coding sequences from 60,000 individuals. I am not affiliated with ExAC and have used their dataset to learn about software development and personal genomics.</p>
+                 </div>
+                 <div class="demo"></div>
+                 <div class="demo group">
+                   <h4>hmmerclust</h4>
+                   <a href="https://github.com/mattsolo1/hmmerclust"><img src="./img/hmmerclust.jpg"></a>
+                   <p class="lead"><a href="https://github.com/mattsolo1/hmmerclust">Source</a></p>
+                   <p>hmmerclust is a Python package for detecting gene clusters across thousands of bacterial
+                      genomes for comparative molecular systems analysis in an IPython notebook.</p>
+                 </div>
+                 <div class="demo"></div>
+                 <div class="demo"></div>
+                 <div class="demo group">
+                   <h4>coot control</h4>
+                   <iframe width="420" height="315" src="https://www.youtube.com/embed/Tc3N4X-74jg" frameborder="0" allowfullscreen></iframe>
+                   <p class="lead"><a href="https://github.com/mattsolo1/cootControl">Source</a></p>
+                   <p>For wirelessly refining protein structures with an iPad (because why not?).</p>
+                 </div>
+                 <div class="demo"></div>
+               </div>
+              </div>
+
+              <div class="section">
+                <div class="anchor" id="publications"></div>
+                <h2 class="heading">Publications</h2>
+
+
+                 <p class="lala">I am a protein structural biologist by training. See my publications to learn about my undergraduate/doctoral work.</p>
+
+                  <p><a href="./publications/matt_cv.pdf">Download CV</a></p>
+                  <p><a href="./publications/thesis.pdf">Download dissertation</a></p>
+
+                 <p class="pub-sub">Baier F., Chen J., <strong>Solomonson M.</strong>, Strynadka N.C., Tokuriki N. (2015). <em>Distinct Metal Isoforms Underlie Promiscuous Activity Profiles of Metalloenzymes.</em>. ACS Chem Biol doi: 10.1021/acschembio.5b00068. <a class="pdf" href="#">[PDF]</a></p>
+
+                 <p class="pub-sub"><strong>Solomonson M.</strong>, Setiaputra D., Makepeace, K.A., Lameignere E., Petrotchenko E.V., Conrady D.G., Bergeron J.R., Vuckovic M., DiMaio F., Borchers C.H., Yip C.K., Strynadka N.C.J. (2015). <em>Structure of EspB from the ESX-1 type VII secretion system and insights into its export mechanism</em>. Structure doi: 10.1016/j.str.2015.01.002. <a class="pdf" href="./publications/esp.pdf">[PDF]</a></p>
+
+                 <p class="pub-sub">Sobhanifar S., Worrall L.J., Gruninger R.J., Wasney G., Blaukopf M., Baumann L., Lameignere E., <strong>Solomonson M.</strong>, Brown E.D., Withers S.G., Strynadka N.C.J. (2015). <em>An intimate look at the structure and mechanism of Staphylococcus aureus TarM, the wall teichoic acid α-glycosyltransferase</em>. Proc Natl Acad Sci U S A doi: 10.1073/pnas.1418084112.. <a class="pdf" href="./publications/tarm.pdf">[PDF]</a></p></p>
+
+                 <p class="pub-sub"><strong>Solomonson, M.</strong>, Huesgen, P.F., Wasney, G.A., Watanabe, N., Gruninger, R.J., Prehna, G., Overall, C.M., and Strynadka, N.C.J. (2013). <em>Structure of the mycosin-1 protease from the mycobacterial ESX-1 protein type VII secretion system</em>. J Biol Chem 288, 17782-17790. <a class="pdf" href="./publications/mycosin.pdf">[PDF]</a></p></p>
+
+                 <p class="pub-sub">Rothery RA, Stein B, <strong>Solomonson M.</strong>, Kirk M.L., Weiner J.H. (2012). <em>Pyranopterin conformation defines the function of molybdenum and tungsten enzymes</em>. Proc Natl Acad Sci U S A 109(37):14773-8. <a class="pdf" href="./publications/pterin.pdf">[PDF]</a> <a class="pdf" href="http://uofa.ualberta.ca/news-and-events/newsarticles/2012/09/discoverymakessenseofmolybdenummystery">[Press]</a></p></p>
+
+                 <p class="pub-sub">Cherney M.M., Zhang Y.F., <strong>Solomonson M.</strong>, Weiner J.H., James M.N.G. 2010. <em>Crystal Structure of Sulfide:Quinone Oxidoreductase from Acidithiobacillus ferrooxidans: Insights into Sul- fidotrophic Respiration and Detoxification</em>. J Mol Biol 398:292-305. <a class="pdf" href="./publications/sqr_jmb.pdf">[PDF]</a></p></p>
+
+                 <p class="pub-sub">Zhang Y., Cherney M.M., <strong>Solomonson M.</strong>, Liu J., James M.N.G., Weiner J.H. 2009. Acta Crystallogr Sect F Struct Biol Cryst Commun 65:839-42. <a class="pdf" href="./publications/sqr_acta.pdf">[PDF]</a></p></p>
+
+
+                 <div class="meetings">
+                 <h2 class="heading">Education</h2>
+                 <ul>
+                   <li>2010–2015 Doctor of Philosophy in Biochemistry University of British Columbia, Vancouver, Canada</li>
+                   <li>2004–2008 Bachelor of Science, Specialization in Biochemistry University of Alberta, Canada</li>
+                 </ul>
+                 <div class="meetings">
+                 <h2 class="heading">Meetings</h2>
+                 <ul>
+                   <li>2015 Hybrid Methods in Structural Biology Keystone Meeting, Lake Tahoe, California</li>
+                   <li>2014 Earl Davie Symposium, selected abstract talk, Vancouver, British Columbia</li>
+                   <li>2013 Tuberculosis Keystone Meeting, Whistler, British Columbia</li>
+                   <li>2012 Future Methods in X-ray Crystallography, Erice, Italy</li>
+                   <li>2011 Tuberculosis Keystone Meeting, Vancouver, British Columbia</li>
+                 </ul>
+
+                 <h2 class="heading">Awards</h2>
+                 <ul>
+                   <li>2014 Richard A. Robertson Memorial Scholarship</li>
+                   <li>2010 - 2014 UBC Four Year Fellowship</li>
+                   <li>2009 Queen Elizabeth II Scholarship</li>
+                   <li>2008 ACS Society of Chemical Industry Student Merit Award</li>
+                   <li>2008 NSERC Undergraduate Research Award</li>
+                   <li>2005 - 2008 Jason Lang Undergraduate Scholarship</li>
+                   <li>2006 Bosch Kitchen Centre Award</li>
+                   <li>2005 Grant Macewan Continuing Student Scholarship</li>
+                 </ul>
+                 </div>
+               </div>
+            </div>
+          </div>
+    </section>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
