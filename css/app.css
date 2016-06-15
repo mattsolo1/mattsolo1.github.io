@@ -84,7 +84,7 @@ li {
   font-weight: regular;
 }
 
-.statement img {
+.me img {
   height: 220px;
   width: 220px;
   /*width:;*/
@@ -110,7 +110,7 @@ li {
 }
 
 .demos {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .demo {
@@ -124,15 +124,16 @@ li {
 }
 
 .demo img {
-  height: 250px;
-  border: 1px black solid;
-  float: left;
-  margin: 10px 40px 10px 0px;
+  height: 100%;
+  width: 100%;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  /*border: 1px black solid;*/
+  /*float: right;*/
+  /*margin: 10px 40px 10px 0px;*/
+
 }
-.demo iframe {
-  float: left;
-  margin: 10px 40px 10px 0px;
-}
+
 
 .group:before,
 .group:after {
