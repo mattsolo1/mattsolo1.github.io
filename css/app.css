@@ -86,10 +86,27 @@ li {
 
 .statement img {
   height: 220px;
-  width:;
+  width: 220px;
+  /*width:;*/
   border: 1px black solid;
-  float: left;
-  margin: 10px 20px 10px 0px;
+  /*float: right;*/
+  /*margin: 80px 20px 10px 10px;*/
+  /*margin-top: 100px;*/
+}
+
+.pad {
+  height: 110px;
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  /*height: 100% !important;*/
+}
+
+.split {
+  padding: 0 0 0 0;
 }
 
 .demos {
@@ -108,8 +125,11 @@ li {
 
 .demo img {
   height: 250px;
-  width:;
   border: 1px black solid;
+  float: left;
+  margin: 10px 40px 10px 0px;
+}
+.demo iframe {
   float: left;
   margin: 10px 40px 10px 0px;
 }

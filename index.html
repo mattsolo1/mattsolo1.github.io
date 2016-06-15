@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>msolo.ca</title>
+    <title>matthew solomonson</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <script src="./js/smooth-scroll.js"></script>
@@ -18,22 +18,27 @@
            <h1>matthew solomonson</h1>
            <h3>biologist/developer</h3>
          </div>
-         <div class="navigation">
+         <!-- <div class="navigation">
            <div class="navigation-item"><a data-scroll buffer href="#about">About me</a></div>
            <div class="navigation-item"><a data-scroll buffer href="#tools">Tools</a></div>
            <div class="navigation-item"><a data-scroll buffer href="#demos">Demos</a></div>
            <div class="navigation-item"><a data-scroll buffer href="#publications">Publications</a></div>
-         </div>
+         </div> -->
 
-            <div class="section statement">
-              <div class="anchor" id="about"></div>
+            <div class="section statement group">
               <h2 class="heading"></h2>
-               <img profile src="./img/profile2.jpg">
-               <p class="lead"><span>I build programs for exploring large biological datasets on the web.</span></p>
+              <div class="large-7 medium-7 columns split">
+                <div class="anchor" id="about"></div>
+                 <p class="lead"><span>I build programs for exploring large biological datasets on the web.</span></p>
 
-               <p> Biological data is exploding in size and complexity. To make sense of it, we need to engineer a new generation of interactive visualization tools that are accessible to researchers, clinicians, hobbyists, and people without scientific training.</p>
+                 <p> Biological data is exploding in size and complexity. To make sense of it, we need to engineer a new generation of interactive visualization tools that are accessible to researchers, clinicians, hobbyists, and people without scientific training.</p>
 
-               <p>I enjoy learning, designing, creating, and being a part of significant collaborative initiatives. I am excited to work with other researchers to create translatable interfaces that accurately communicate complex information while getting people excited about biology.</p>
+                 <p>I enjoy learning, designing, creating, and being a part of significant collaborative initiatives. I am excited to work with other researchers to create translatable interfaces that accurately communicate complex information while getting people excited about biology.</p>
+              </div>
+              <div class="large-5 medium-5 columns me">
+                <div class="pad hide-for-small-only"></div>
+                <img profile src="./img/profile2.jpg">
+              </div>
              </div>
 
              <div class="section">
@@ -60,25 +65,28 @@
                  <div class="demo group">
                    <h4>exome browser</h4>
                    <a href="http://52.70.90.147"><img src="./img/exalt.png"></a>
+                   <p>This web application explores the dataset released by the <a href="http://exac.broadinstitute.org/">Exome Aggregation Consortium (ExAC)</a>, an aggregated analysis of protein-coding sequences from over 60,000 humans.
+
+                   <p>Exomes are the protein coding regions of the genome and important factors in disease and human traits. I am not affiliated with the ExAC consortium. This browser is a UI concept project created by an outsider to this field, and I would not recommend using this for anthing serious. It is lacking the nuance, features and scientific rigour of the official ExAC browser. It was conceived as a way for me to learn about software development and human genomics. Only tested on latest versions of Chrome/Firefox so far. See <a href="http://biorxiv.org/content/early/2015/10/30/030338">the paper</a> for more info about the data used in this application:</p>
+
                    <p class="lead"><a href="http://52.70.90.147">Demo</a></p>
                    <p class="lead"><a href="https://github.com/mattsolo1/exalt">Source</a></p>
-                   <p>This application can be used to explore the dataset released by the Exome Aggregation Consortium (ExAC), which describes protein-coding sequences from 60,000 individuals. I am not affiliated with ExAC and have used their dataset to learn about software development and personal genomics.</p>
                  </div>
                  <div class="demo"></div>
                  <div class="demo group">
                    <h4>hmmerclust</h4>
                    <a href="https://github.com/mattsolo1/hmmerclust"><img src="./img/hmmerclust.jpg"></a>
-                   <p class="lead"><a href="https://github.com/mattsolo1/hmmerclust">Source</a></p>
                    <p>hmmerclust is a Python package for detecting gene clusters across thousands of bacterial
                       genomes for comparative molecular systems analysis in an IPython notebook.</p>
+                    <p class="lead"><a href="https://github.com/mattsolo1/hmmerclust">Source</a></p>
                  </div>
                  <div class="demo"></div>
                  <div class="demo"></div>
                  <div class="demo group">
                    <h4>coot control</h4>
                    <iframe width="420" height="315" src="https://www.youtube.com/embed/Tc3N4X-74jg" frameborder="0" allowfullscreen></iframe>
-                   <p class="lead"><a href="https://github.com/mattsolo1/cootControl">Source</a></p>
                    <p>For wirelessly refining protein structures with an iPad (because why not?).</p>
+                   <p class="lead"><a href="https://github.com/mattsolo1/cootControl">Source</a></p>
                  </div>
                  <div class="demo"></div>
                </div>
